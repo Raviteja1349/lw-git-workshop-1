@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+.button-2{
+  background-color: whitesmoke;
+  border-radius: 8px;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 14px;
+  touch-action: manipulation;
+  margin-left: 10px;
+}
+.button-2:hover,
+.button-2:focus{
+  background-color: azure;
+}
+.button-3{
+  background-color: greenyellow;
+  border-radius: 8px;
+  height: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 6px 30px;
+  touch-action: manipulation;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+.button-3:hover,
+.button-3:focus{
+  background-color: green;
+}
+.button-4{
+  background-color: white;
+  border-radius: 8px;
+  height: 30px;
+  padding: 6px 15px;
+  border-style: solid;
+  border-width: 1px;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.button-4:hover,
+.button-4:focus{
+  background-color: whitesmoke;
+}
+.button-5{
+  background-color: #fa6400;
+  height: 40px;
+  border-style: none;
+  border-radius: 4px;
+  padding: 15px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+.button-5:hover,
+.button-5:focus{
+  background-color: coral;
+}
+.button-6{
+  background-color: #FFFFFF;
+  padding: 13px 23px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.button-6:hover,
+.button-6:focus{
+  background-color: ghostwhite;
+}
+.button-7{
+  padding: 13px 23px;
+  margin-left: 10px;
+  background-color: dodgerblue;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}
+.button-7:hover,
+.button-7:focus{
+  background-color: rgb(15, 15, 236);
+}
+.button-8{
+  padding: 13px 23px;
+  margin-left: 10px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: gray;
+}
+.button-8:hover,
+.button-8:focus{
+  background-color: gainsboro;
+}
+.button-9{
+  padding: 13px 23px;
+  margin-left: 10px;
+  background-color: blue;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+}
+.button-9:hover,
+.button-9:focus{
+  background-color: blue;
+}
+.button-10{
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: cornflowerblue;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+}
+.button-10:hover,
+.button-10:focus{
+  background-color: cornflowerblue;
+}
+.button-11{
+  padding: 10px 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+}
+.button-11:hover,
+.button-11:focus{
+  background-color: white;
+}
+.button-12{
+  padding: 10px;
+  background-color: grey;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-left: 10px;
+}
+.button-12:hover,
+.button-12:focus{
+  background-color: grey;
+}
+.button-13{
+  padding: 10px 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-left: 10px;
+}
+.button-13:hover,
+.button-13:focus{
+  background-color: white;
+}
+.button-14{
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-left: 10px;
+}
+.button-14:hover,
+.button-14:focus{
+  background-color: aliceblue;
+}
+.button-15{
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.button-15:hover,
+.button-15:focus{
+  background-color: cornflowerblue;
+}
+.button-16{
+  padding: 10px 20px;
+  background-color: ghostwhite;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.button-16:hover,
+.button-16:focus{
+  background-color: ghostwhite;
+  border: 1px solid black;
+}
+.button-17{
+  padding: 10px 20px;
+  background-color: ghostwhite;
+  border-style: 1px solid;
+  border-width: 1px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  height: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: black;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.button-17:hover,
+.button-17:focus{
+  background-color: aliceblue;
+  color: cornflowerblue;
+}
+.button-18{
+  padding: 10px 20px;
+  background-color: rgba(75, 112, 224);
+  border-style: 1px solid;
+  border-width: 1px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  height: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.button-18:hover,
+.button-18:focus{
+  background-color: darkslateblue;
+}
+.button-19{
+  padding: 10px 20px;
+  background-color: rgba(75, 112, 224);
+  border-style: 1px solid;
+  border-width: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.button-19:hover,
+.button-19:focus{
+  background-color: darkslateblue;
+}
+</style>
+<body>
+<button class="button-1" role="button">Button 1</button>
+<button class="button-2" role="button">Button 2</button>
+<button class="button-3" role="button">Button 3</button>
+<button class="button-4" role="button">Button 4</button>
+<button class="button-5" role="button">Button 5</button><br>
+<button class="button-6" role="button">Button 6</button>
+<button class="button-7" role="button">Button 7</button>
+<button class="button-8" role="button">Button 8 </button>
+<button class="button-9" role="button">Button 9 </button>
+<button class="button-10" role="button">Button 10 </button><br>
+<button class="button-11" role="button">Button 11 </button>
+<button class="button-12" role="button">Button 12 </button>
+<button class="button-13" role="button">Button 13 </button>
+<button class="button-14" role="button">Button 14 </button>
+<button class="button-15" role="button">Button 15 </button><br>
+<button class="button-16" role="button">Button 16 </button>
+<button class="button-17" role="button">Button 17 </button>
+<button class="button-18" role="button"><b>Button 18</b> </button>
+<button class="button-19" role="button">Button 19</button>
+</body>
+</html>
